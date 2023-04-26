@@ -19,7 +19,7 @@ console.log(`Choose your character: \n
 `);
 
 const playerChar1 = Number(reader.question('Player 1 Character: '));
-const playerChar2 = Number(reader.question('Player 1 Character: '));
+const playerChar2 = Number(reader.question('Player 2 Character: '));
 
 let player1: Clothing = new Tops('Player 1', '01A', '04/23/2003', 'red', 90, 1250, 1250, 250, 250, 'small', 'cotton', 'Uniqlo', 0, false, false);
 let player2: Clothing = new Tops('Player 2', '01A', '04/23/2003', 'red', 90, 1250, 1250, 250, 250, 'small', 'cotton', 'Uniqlo', 0, false, false);
